@@ -1,0 +1,15 @@
+``` sql
+ride_id,            STRING
+rideable_type,      STRING
+started_at,         TIMESTAMP
+ended_at,           TIMESTAMP
+start_station_name, STRING
+end_station_name,   STRING
+start_station_id,   INTEGER/STRING (see ** below)
+end_station_id,     INTEGER/STRING (see ** below)
+start_lat,          FLOAT
+start_lng,          FLOAT
+end_lat,            FLOAT
+end_lng,            FLOAT
+member_casual,      STRING
+```
