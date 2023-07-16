@@ -1,4 +1,4 @@
-``` sql
+```sql
 ride_id,            STRING
 rideable_type,      STRING
 started_at,         TIMESTAMP
@@ -12,4 +12,5 @@ start_lng,          FLOAT
 end_lat,            FLOAT
 end_lng,            FLOAT
 member_casual,      STRING
+1
 ```
