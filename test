@@ -1,4 +1,5 @@
 text
+
 ```SQL
 ride_id,            STRING
 rideable_type,      STRING
@@ -18,4 +19,16 @@ member_casual,      STRING
 ```python
 def greet(name):
     print(f"Hello, {name}!")
+```
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
 ```
