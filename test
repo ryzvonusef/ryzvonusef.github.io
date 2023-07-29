@@ -32,3 +32,15 @@ require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
+
+```SQL
+SELECT *, COUNT(*) 
+  FROM t1
+ GROUP BY x, y, z, ... -- all attributes of t1
+
+EXCEPT
+
+SELECT *, COUNT(*) 
+  FROM t2
+ GROUP BY x, y, z, ... -- all attributes of t2
+```
