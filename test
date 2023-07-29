@@ -12,5 +12,16 @@ start_lng,          FLOAT
 end_lat,            FLOAT
 end_lng,            FLOAT
 member_casual,      STRING
-1
+
+```
+```SQL
+SELECT *, COUNT(*) 
+  FROM t1
+ GROUP BY x, y, z, ... -- all attributes of t1
+
+EXCEPT
+
+SELECT *, COUNT(*) 
+  FROM t2
+ GROUP BY x, y, z, ... -- all attributes of t2
 ```
